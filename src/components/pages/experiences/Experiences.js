@@ -1,0 +1,57 @@
+import React from "react";
+
+export default function Experiences() {
+  return (
+    <div>
+      <div className="card">
+        <h6>
+          <strong>EXPERIENCE</strong>
+        </h6>
+        <div>
+          <div className="col xl4 l4 m6 s12">
+            <p>
+              Jan
+              <strong>2016</strong> - Mar
+              <strong>2017</strong>
+            </p>
+          </div>
+          <div className="col xl8 l8 m6 s12">
+            <blockquote>
+              <h6>
+                <strong>WEB DEVELOPER</strong>
+              </h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+                earum doloribus dicta quod architecto, praesentium totam
+                molestiae similique culpa repellat blanditiis nam facilis eius
+                quaerat distinctio vitae, tenetur beatae repellendus?
+              </p>
+            </blockquote>
+          </div>
+        </div>
+        <div className="row mt-top">
+          <div className="col xl4 l4 m6 s12">
+            <p>
+              Jan
+              <strong>2016</strong> - Mar
+              <strong>2017</strong>
+            </p>
+          </div>
+          <div className="col xl8 l8 m6 s12">
+            <blockquote>
+              <h6>
+                <strong>WEB DEVELOPER</strong>
+              </h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+                earum doloribus dicta quod architecto, praesentium totam
+                molestiae similique culpa repellat blanditiis nam facilis eius
+                quaerat distinctio vitae, tenetur beatae repellendus?
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
